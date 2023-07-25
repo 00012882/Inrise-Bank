@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updated NOVA Bank</title>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+    <body class="body">
+        <header class="header">
+            <div class="header__left">
+                <button class="burger" type="button" aria-label="Бургер">
+                    <span class="burger__line1"></span>
+                    <span class="burger__line2"></span>
+                    <span class="burger__line3"></span>
+                </button>
+                <form class="search" action="search.html">
+                    <input type="search" class="search__input" placeholder="Поиск...">
+                    <!-- <button class="search__btn" aria-label="Найти">
+                        <svg></svg>
+                    </button> -->
+                </form>
+            </div>
+            <div class="header__right">
+                <a href="#" class="header__balance" >
+                    <img src="./images/coin-logo.png" alt="#">
+                    <span class="live text--grey fosi--08rem">Баланс счета:</span>
+                    <b class="text--blue fosi--1rem">1430$</b>
+                </a>
+                <div class="header__account">
+                    <button class="header__notification" type="button" aria-label="Уведомления">
+                        <img src="./images/notification-logo.png" alt=#">
+                    </button>
+                    <button class="user" aria-label="Пользователь">
+                        <span class="user__img">
+                            <img src="./images/ivan-logo.png" alt="sdfsdf" width="40" height="40">
+                        </span>
+                        <img src="./images/arrowDOWN-logo.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="bar">
+            <a href="#" class="logo">
+                <img src="./images/menu-logo.png" alt="#">
+                <span class="fosi--12rem text--white">Inrise | <b>Bank</b></span>
+            </a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            <img src="./images/home-logo.png" alt="#">
+                            <span class="fosi--08rem text--white">Личный кабинет</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            <img src="./images/analytics-logo.png" alt="#">
+                            <span class="fosi--08rem text--white">Мониторинг счета</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            <img src="./images/shopping-logo.png" alt="#">
+                            <span class="fosi--08rem text--white">Подписка</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            <img src="./images/user-logo.png" alt="#">
+                            <span class="fosi--08rem text--white">Мои контакты</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            <img src="./images/news-logo.png" alt="#">
+                            <span class="fosi--08rem text--white">Новости</span>
+                        </a>
+                    </li>
+                    <li class="menu__item menu__item--mt">
+                        <a href="#" class="menu__link">
+                            <img src="./images/settings__logo.png" alt="#">
+                            <span class="fosi--08rem text--white">Настройки</span>
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            <img src="./images/quit-logo.png" alt="#">
+                            <span class="fosi--08rem text--white">Выйти</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <div class="content-info">
+                <section class="content-block__balance">
+                    <header class="content-block__header">
+                        <div class="content-block__select">
+                            <h2 class="content-block__title text--blue fosi--1rem">Cостояние счета:</h2>
+                            <select name="" class="content__select text--grey">
+                                <option class="fosi--08rem text--grey active">Август</option>
+                                <option value="Январь">Январь</option>
+                                <option value="Февраль">Февраль</option>
+                                <option value="Март">Март</option>
+                                <option value="Апрель">Апрель</option>
+                                <option value="Май">Май</option>
+                                <option value="Июнь">Июнь</option>
+                                <option value="Июль">Июль</option>
+                                <option value="Сентябрь">Сентябрь</option>
+                                <option value="Октябрь">Октябрь</option>
+                                <option value="Ноябрь">Ноябрь</option>
+                                <option value="Декабрь">Декабрь</option>
+                            </select>
+                        </div>
+                        <a href="content-block__link" class="text--grey fosi--08rem live">Мониторинг счета</a>
+                    </header>
+                    <div class="content-block__content">
+                        <ul class="balance">
+                            <li class="balance__item">
+                                <div class="balance__title">
+                                    <img src="./images/coin-logo.png" alt="#">
+                                    <span class="text--grey fosi--08rem">На счету:</span>
+                                    <b class="text--blue fosi--14rem">1430$</b>
+                                </div>
+                            </li>
+                            <li class="balance__item">
+                                <div class="balance__title">
+                                    <img src="./images/arrowUP-logo.png" alt="#">
+                                    <span class="text--grey fosi--08rem">Поступления:</span>
+                                    <b class="text--blue fosi--14rem">430$</b>
+                                </div>
+                                <div class="line">
+                                    <span class="line line__blue"></span>
+                                    <span class="line line__green"></span>
+                                    <span class="line line__yellow"></span>
+                                </div>
+                            </li>
+                            <li class="balance__item">
+                                <div class="balance__title">
+                                    <img src="./images/arrowDOWN-logo.png" alt="#">
+                                    <span class="text--grey fosi--08rem">Списания:</span>
+                                    <b class="text--blue fosi--14rem">60$</b>
+                                </div>
+                                <div class="line">
+                                    <span class="line line__bl"></span>
+                                    <span class="line line__gr"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+
+
+                <section class="content-block__transactions">
+                    <header class="content-block__header2">
+                        <h2 class="content-block__title text--blue fosi--1rem">Последние транзакции</h2>
+                        <a href="content-block__link" class="text--grey fosi--08rem live">Все транзакции</a>
+                    </header>
+                    <div class="content-block__content">
+                        <table class="transactions__table">
+                            <tr>
+                                <td><img src="./images/arrowUP-logo.png" alt="#"></td>
+                                <td width="90" class="fosi--08rem">Пополнение</td>
+                                <td width="140" class="fosi--08rem">04.08.2021 15:54</td>
+                                <td width="150" class="fosi--08rem">ID 154015</td>
+                                <td><img src="./images/creditcard-logo.png" alt="#"></td>
+                                <td width="170" class="fosi--08rem">Карта VISA</td>
+                                <td class="fosi--08rem text--green">+20$</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./images/arrowDOWN-logo.png" alt="#"></td>
+                                <td width="90" class="fosi--08rem">Вывод</td>
+                                <td width="140" class="fosi--08rem">03.08.2021 23:04</td>
+                                <td width="150" class="fosi--08rem">ID 153665</td>
+                                <td><img src="./images/creditcard-logo.png" alt="#"></td>
+                                <td width="170" class="fosi--08rem">Western Union</td>
+                                <td class="fosi--08rem">-13$</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./images/arrowUP-logo.png" alt="#"></td>
+                                <td width="90" class="fosi--08rem">Перевод</td>
+                                <td width="140" class="fosi--08rem">04.08.2021 15:54</td>
+                                <td width="150" class="fosi--08rem">ID 154015</td>
+                                <td><img src="./images/sergey-logo.png" alt="#" width="18" height="18"></td>
+                                <td width="170" class="fosi--08rem">Sergey Kim</td>
+                                <td class="fosi--08rem text--green">+120$</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./images/arrowDOWN-logo.png" alt="#"></td>
+                                <td width="90" class="fosi--08rem">Перевод</td>
+                                <td width="140" class="fosi--08rem">03.08.2021 23:04</td>
+                                <td width="150" class="fosi--08rem">ID 154015</td>
+                                <td><img src="./images/sergey-logo.png" alt="#" width="18" height="18"></td>
+                                <td width="170" class="fosi--08rem">Sergey Kim</td>
+                                <td class="fosi--08rem">-85$</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./images/arrowUP-logo.png" alt="#"></td>
+                                <td width="90" class="fosi--08rem">Бонус</td>
+                                <td width="140" class="fosi--08rem">03.08.2021 21:30</td>
+                                <td width="150" class="fosi--08rem">ID 153665</td>
+                                <td><img src="./images/star-logo.png" alt="#" width="18" height="18"></td>
+                                <td width="170" class="fosi--08rem">Бонус от NOVA</td>
+                                <td class="fosi--08rem text--green">+100$</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./images/arrowDOWN-logo.png" alt="#"></td>
+                                <td width="90" class="fosi--08rem">Покупка</td>
+                                <td width="140" class="fosi--08rem">03.08.2021 21:25</td>
+                                <td width="150" class="fosi--08rem">ID 154015</td>
+                                <td><img src="./images/korzinka.png" alt="#" width="18" height="18"></td>
+                                <td width="190" class="fosi--08rem">Подписка на 3 месяца</td>
+                                <td class="fosi--08rem">-250$</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="transaction__bottom row--flex">
+                        <h3 class="text--grey fosi--08rem">Записи с 1 до 6 из 11 записей</h3>
+                        <div class="transaction__link">
+                            <ul class="transaction__ul">
+                                <a class="text--grey fosi--08rem live" href="#">1</a>
+                                <a class="text--grey fosi--08rem live" href="#">2</a>
+                                <a class="text--grey fosi--08rem live" href="#">3</a>
+                                <a href="#"><img src="./images/arrow-left.png" alt="#"></a>
+                                <a href="#"><img src="./images/arrow-right.png" alt="#"></a>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <aside class="content-bar">
+                <section class="content-bar__info">
+                    <a href="#" class="content-bar__settings">
+                        <img src="./images/stngs.png" alt="#">
+                    </a>
+                    <div class="content-bar__header">
+                        <img src="./images/ivan-logo.png" alt="#" width="60" height="60">
+                        <b class="text--blue fosi--12rem">Иван Иванов</b>
+                    </div>
+                    <div class="content-bar__grid">
+                        <span class="fosi--08rem text--grey">Подписка: <span class="fosi--08rem text--blue">Активна</span></span>
+                        <span class="fosi--08rem text--grey">Клубный номер: <span class="fosi--08rem text--blue">512</span></span>
+                        <span class="fosi--08rem text--blue">+998 99 844 45 54</span>
+                        <span class="fosi--08rem text--blue">Uzbekistan</span>
+                    </div>
+                </section>
+
+                <section class="content-bar__buttons">
+                    <div class="content-bar__main">
+                        <div class="content-bar__btns">
+                            <div class="main">
+                                <span class="fosi--08rem text--white coin--center">
+                                    <img src="./images/coin-logo.png" alt="#"> Баланс счета
+                                </span>
+                                <b class="text--white fosi--14rem">1430$</b>
+                            </div>
+                            
+                            <div class="content-bar__clicks">
+                                <button class="btn btn1"><img src="./images/coinDOWN-logo.png" alt="#">Пополнить</button>
+                                <button class="btn btn2"><img src="./images/coinUP-logo.png" alt="#"> Вывести</button>
+                            </div>
+                        </div>
+
+                        <div class="content-bar__bottom">
+                            <button class="btn btn3"><img src="./images/coinRIGHT-logo.png" alt="#">Отправить деньги</button>
+                            <button class="btn btn4"><img src="./images/contacts-logo.png" alt="#">Контакты</button>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content-bar__news">
+                    <div class="content-bar__newnews">
+                        <div class="news__text row--flex">
+                            <b class="text--blue fosi--08rem">Новости</b>
+                            <a href="#" class="text--grey fosi--08rem live">Все новости</a>
+                        </div>
+
+                        <div class="news__details row--flex">
+                            <a href="#"><img src="./images/arrow-left.png" alt="#"></a>
+                            <div class="news__info">
+                                <h3 class="text--blue">ВНИМАНИЕ!</h3>
+                                <h3 class="text--blue">Каникулы-2021!</h3>
+                                <p class="text--grey">04.08.2021</p>
+                            </div>
+                            <a href="#"><img src="./images/arrow-right.png" alt="#"></a>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </body>
+</html>
